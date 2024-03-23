@@ -1,0 +1,57 @@
+.Navbar{ 
+  background-color: rgb(238, 229, 229);
+  padding:0px;
+
+}
+.container{
+  list-style: none; 
+  display: flex;
+  flex-direction: row;
+  justify-content: center ;
+  flex-wrap: wrap;
+  gap: 10px 10px;
+}
+.one{ 
+  flex-grow: 1;
+  color: red;
+  margin-top: 4rem;
+  margin-bottom: 4rem;
+  align-self: flex-end;
+  border-radius: 10px;
+  border-style: dotted;
+  border-color: red;
+  padding: 2rem 2rem 2rem 2rem;
+  text-align: start;
+  
+}
+.one:hover,
+.two:hover{ 
+  background-color: white;
+}
+.container li{
+
+  font-size: xx-large;
+}
+.button{ 
+  margin:5px 5px 5px 5px;
+  align-items: center;
+  text-align:center;
+  font-size: 1rem;
+  background-color: black;
+  color: white;
+  padding:5px 3px 5px 3px;
+}
+.two{
+  flex-grow: 4;
+  color: red;
+  margin-top: 4rem;
+  margin-bottom: 4rem;
+  align-items: end;
+  border-radius: 10px;
+  border-style: dotted;
+  border-color: red;
+  padding: 2rem 2rem 2rem 2rem;
+}
+.one p { 
+  font-size: 20px;
+}
